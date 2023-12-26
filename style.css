@@ -1,0 +1,83 @@
+
+body{
+    background: rgb(165, 218, 169);
+}
+nav{
+    background: #E91E63 ;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 8px; 
+    display:flex; 
+
+}
+
+.imagennav{
+    height: 100px;
+    width: 95px;
+    padding-left: 15px;
+    padding-top: 16px
+  
+}
+
+.titulo{
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 40px;
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 40px;
+    color: #03A9F4;
+}
+
+.calculadora {
+    width: 400px;
+    background-color: #2edee4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+  }
+
+  input[type="button"]{
+    width: 70px;
+    height: 40px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    background-color: #eee;
+    border: none;
+    border-radius: 5px;
+
+  }
+
+ input[type="button"]:hover{
+    background: #fa6007;
+ }
+
+  #pantalla{
+    margin-bottom: 50px;
+    margin-left: 9px;
+    width: 90%;
+    height: 50px;
+    text-align: right;
+    font-size: 40px;
+    color: #23fa07;
+    border-radius: 5px;
+  }
+
+  .container{
+    display: flex; 
+    justify-content: center;
+  }
+ .baile{
+    height: 400px;
+    margin-left: 480px
+ }
+
+ .felicitaciones{
+    text-align:center; 
+    font-family: 'Walter Turncoat', cursive;
+    color:#03A9F4;
+
+ }
